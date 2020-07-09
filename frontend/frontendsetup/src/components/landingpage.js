@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import {  Header, Navigation, Switch, Route, Grid, Cell, Tabs, Tab, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
 import AutoCompleteText from './AutoCompleteText';
-
+import {Redirect} from 'react-router';
+import { Link } from 'react-router-dom';
+import get_it_now from './get_it_now';
 
 
 
@@ -9,11 +11,13 @@ import Share from './SharePage';
 import Profile from './ViewProfile';
 
 
+
 export const Main = () => (
   <Switch> 
     
     <Route path='/'component={Share} />
     <Route path='/'component={Profile} />
+    <Route path="http://localhost:3000/GetItNow" component={get_it_now}/>
   </Switch>
 
 
@@ -36,6 +40,7 @@ class landing extends Component {
         <App />
         <Projects />
         <App />
+
         <HideableText text='testing 123'/>
         <AutoCompleteText />
         
@@ -74,6 +79,11 @@ export class Projects extends Component {
     this.state = { activeTab: 0};
   }
 
+  onGet = () => {
+    console.log("asdkkfjasdlf");
+    return <Redirect  to='/GetItNow' />
+ }
+
   toggleCategories() {
 
     if(this.state.activeTab === 0){
@@ -93,7 +103,7 @@ export class Projects extends Component {
             <CardActions border>
               
               <Button colored> SHARE </Button>
-              <Button colored> GET IT NOW</Button>
+              <Link to="get_it_now" Projects="btn btn-primary">GET IT NOW </Link>
             </CardActions>
             
             <CardMenu style={{color: '#fff'}}>
@@ -113,7 +123,7 @@ export class Projects extends Component {
           <CardActions border>
             
             <Button colored> SHARE </Button>
-            <Button colored> GET IT NOW </Button>
+            <Link to="/GetItNow">GET IT NOW </Link>
           </CardActions>
 
           <CardMenu style={{color: '#fff'}}>
@@ -134,7 +144,9 @@ export class Projects extends Component {
           <CardActions border>
             
             <Button colored> SHARE </Button>
-            <Button colored> GET IT NOW </Button>
+            <Link to="/GetItNow">GET IT NOW </Link>
+
+            {/* <Link to="/GetItNow">test</Link> */}
           </CardActions>
             
           <CardMenu style={{color: '#fff'}}>
@@ -149,7 +161,6 @@ export class Projects extends Component {
     render() {
       return(
         <div className="category-tabs">
-          
           <Tabs activeTab={this.state.activeTab} onChange={(tabId) => {
             this.setState({ activeTab: tabId });
             console.log(tabId);
@@ -224,6 +235,7 @@ export class App extends Component {
     );
   }
 }
+
 
 export class HideableText extends React.Component {
     constructor (props) {

@@ -75,7 +75,7 @@ a:hover{
 
 }
 .product{
-    flex-direction: : column;
+    flex-direction:  column;
     justify-content: space-between;
 
 }
@@ -96,7 +96,7 @@ a:hover{
 /* Sidebar */
 
 .brand button{
-    font-size: : 3rem;
+    font-size:  3rem;
     padding: .5rem;
     background: none;
     border: none;
