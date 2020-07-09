@@ -14,7 +14,6 @@ import Profile from './ViewProfile';
 
 export const Main = () => (
   <Switch> 
-    
     <Route path='/'component={Share} />
     <Route path='/'component={Profile} />
     <Route path="http://localhost:3000/GetItNow" component={get_it_now}/>
