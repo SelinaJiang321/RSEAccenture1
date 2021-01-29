@@ -33,17 +33,17 @@ There are 3 main layers, the code, the AWS Infrastructure and the interface laye
 ## Solution 
 Target Users, User Flow, Motivation for product, Research and Validation
 
-# Research
+## Research
 In conducting our research to gain a better understanding of similar resource-sharing platforms, we looked into prime examples such as Ebay, Amazon, and Gumtree.
 Main sources of avenue:
 charging a commission between buyer and seller when a transaction is made
 offering promotion services to a seller’s listing.
 
-# OUR SOLUTION:
+## OUR SOLUTION:
 we provide a market opportunity for those struggling in the COVID pandemic, who are lacking essential day to day needs.
 As with COVID, it is observed that there will always be a small group of individuals who will take more than they require out of this fear, leaving many others with an inadequate supply to pass the crisis. Like the infamous toilet paper hoard of 2020.
 
-# Why you should invest in our product:
+## Why you should invest in our product:
 Our platform specifically targets times of hardships, such as pandemics and crisis relief, rather than general resource sharing.
 In such hardships, there are many gaps in the market resulting in short supply of necessary needs.
 We intend to minimise these struggles for future crisis, and establish a sense of kinships within the community.
@@ -53,7 +53,7 @@ Promote moral deeds and actions that benefit the community
 platform can be easily marketed as a moral platform
 implies positive themes and attracts sponsors or advertisers.
 
-# PRODUCT
+## PRODUCT
 A Resource sharing software in the form of a website
 
 Users can:
@@ -74,5 +74,5 @@ Submit form
 
 
 
-![demo flow](./Desktop/demoflow.png)
+![demo flow](./assets/demoflow.png)
 
