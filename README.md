@@ -39,7 +39,7 @@ Main sources of avenue:
 charging a commission between buyer and seller when a transaction is made
 offering promotion services to a seller’s listing.
 
-## OUR SOLUTION:
+## Our solution:
 we provide a market opportunity for those struggling in the COVID pandemic, who are lacking essential day to day needs.
 As with COVID, it is observed that there will always be a small group of individuals who will take more than they require out of this fear, leaving many others with an inadequate supply to pass the crisis. Like the infamous toilet paper hoard of 2020.
 
@@ -53,7 +53,7 @@ Promote moral deeds and actions that benefit the community
 platform can be easily marketed as a moral platform
 implies positive themes and attracts sponsors or advertisers.
 
-## PRODUCT
+## Product
 A Resource sharing software in the form of a website
 
 Users can:
