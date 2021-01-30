@@ -1,4 +1,4 @@
-# RSEAccenture1 - Resource Sharing
+# Releaf （Resource Sharing Website with Accenture)
 
 ## Goals:
 
